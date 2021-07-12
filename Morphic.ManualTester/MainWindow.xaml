@@ -37,6 +37,16 @@
                               Unchecked="ToggleAutoApply" VerticalAlignment="Center" Margin="10,0,10,0" />
                     <Button Name="ApplySettings" Content=" Apply Settings " Click="ApplyAllSettings"
                             VerticalAlignment="Stretch" Visibility="Hidden" />
+                    <Button Name="EB" Content=" Enable Basic " Click="EBasic"
+                            VerticalAlignment="Stretch" />
+                    <Button Name="DB" Content=" Disable Basic " Click="DBasic"
+                            VerticalAlignment="Stretch" />
+                    <Button Name="EE" Content=" Enable Essential " Click="EEssential"
+                            VerticalAlignment="Stretch" />
+                    <Button Name="DE" Content=" Disable Essential " Click="DEssential"
+                            VerticalAlignment="Stretch" />
+                    <Button Name="RO" Content=" Restore Original " Click="RestoreOriginal"
+                            VerticalAlignment="Stretch" />
                 </DockPanel>
             </DockPanel>
         </StackPanel>
